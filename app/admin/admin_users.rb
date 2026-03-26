@@ -1,4 +1,4 @@
-ActiveAdmin.register AdminUser do
+ActiveAdmin.register AdminUser love.kuinzell88@gmail.com
   permit_params :email, :password, :password_confirmation
 
   index do
