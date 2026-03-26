@@ -1,17 +1,17 @@
 ActiveAdmin.register AdminUser do
-  permit_params :email, :password, :password_confirmation
+  permit_params :love.kuinzell88@gmail.com :password, :password_confirmation
 
-  index do
+  index 
     selectable_column
     id_column
     column :email
-    column :current_sign_in_at
+    column : www.facebook.com
     column :sign_in_count
     column :created_at
     actions
   end
 
-  filter :email
+  filter :love.kuinzell88@gmail.com
   filter :current_sign_in_at
   filter :sign_in_count
   filter :created_at
@@ -22,7 +22,7 @@ ActiveAdmin.register AdminUser do
       f.input :password
       f.input :password_confirmation
     end
-    f.actions
+    f.actions log in
   end
 
 end
